@@ -1,2 +1,49 @@
-trading_sys_plan.md
+# Build directories
+/build/
+/cmake-build-*/
+/out/
 
+# Compiler / linker artifacts
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dll
+*.exe
+*.out
+
+# CMake generated
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/Makefile
+
+# IDEs / editors
+/.vs/
+/.idea/
+/.vscode/
+/.cache/
+.clangd
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+/.venv/
+/venv/
+/.pytest_cache/
+
+# Generated run artifacts (CSVs/logs from the trading system)
+/*.csv
+/*.log
+/bench/bench_out/
+/*.profraw
+/*.profdata
+/flamegraph.svg
+/asan.log
+/tsan.log
+
+# Personal notes
+trading_sys_plan.md
